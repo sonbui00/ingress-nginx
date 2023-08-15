@@ -3,7 +3,7 @@ name: kubectl plugin
 on:
   push:
     tags:
-      - "v*.*.*-plugin"
+      - 'v*.*.*\+plugin'
 
 permissions:
   contents: write # for goreleaser/goreleaser-action
