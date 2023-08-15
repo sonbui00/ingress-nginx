@@ -1,7 +1,7 @@
 project_name: ingress-nginx
 release:
   github:
-    owner: kubernetes
+    owner: sonbui00
     name: ingress-nginx
 builds:
   - id: ingress-nginx
