@@ -8,6 +8,7 @@ on:
       - "cmd/plugin/**"
     tags:
       - "v*"
+  workflow_dispatch: {}
 
 permissions:
   contents: write # for goreleaser/goreleaser-action
