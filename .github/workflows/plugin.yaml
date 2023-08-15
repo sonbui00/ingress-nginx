@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - "main"
-      - "10197-fix"
+      - "10197-fix-test"
   workflow_dispatch: {}
 
 permissions:
