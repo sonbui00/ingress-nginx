@@ -2,10 +2,8 @@ name: kubectl plugin
 
 on:
   push:
-    branches:
-      - "main"
-      - "10197-fix-test"
-  workflow_dispatch: {}
+    tags:
+      - "v*.*.*-plugin"
 
 permissions:
   contents: write # for goreleaser/goreleaser-action
